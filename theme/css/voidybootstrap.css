@@ -83,6 +83,13 @@ p.standfirst {
     text-align: center;
 }
 
+.img-author > img + .widget-body .img-author {
+    left: 50%;
+    margin: 0 -50px;
+    position: absolute;
+    top: -45px;
+}
+
 #my-self #img-author{
     border-radius: 500px;
     height: 100px;
