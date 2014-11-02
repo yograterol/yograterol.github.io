@@ -90,9 +90,15 @@ p.standfirst {
     top: -45px;
 }
 
-#my-self #img-author{
+#my-self .img-author{
     border-radius: 500px;
     height: 100px;
     width: 100px;
 }
 
+.img-author {
+    border-radius: 500px;
+    background: #fff;
+    border: 5px solid #fff;
+    overflow: hidden;
+}
