@@ -69,9 +69,6 @@ p.standfirst {
     min-height: 30px;
 }
 
-/*
- * My preference for code blocks is no line wraps and horizontal scrolling.
- */
 .highlight pre {
     border-left: 5px solid #999;
     overflow-x: auto;
@@ -79,5 +76,16 @@ p.standfirst {
     word-break: normal;
     word-wrap: normal;
     white-space: pre;
+}
+
+.widget-body {
+    position: relative;
+    text-align: center;
+}
+
+#my-self #img-author{
+    border-radius: 500px;
+    height: 100px;
+    width: 100px;
 }
 
